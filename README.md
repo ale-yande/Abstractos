@@ -17,7 +17,7 @@ Objetivo: aprender nuevos conocimientos que considero importantes para desarroll
 
 Expectativa: Que logre adquirir los conceptos de la materia.
 
-<img width="1200" height="1600" alt="WhatsApp Image 2026-08-13 at 2 48 08 PM" src="https://github.com/user-attachments/assets/ab802704-0a95-46a7-8f20-e06d7a3c117e" />
+<img width="82" height="106" alt="WhatsApp Image 2026-08-13 at 2 48 08 PM" src="https://github.com/user-attachments/assets/ab802704-0a95-46a7-8f20-e06d7a3c117e" />
 
 Alejandro Yandé
 
