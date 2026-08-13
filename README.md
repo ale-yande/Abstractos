@@ -1,5 +1,5 @@
 # Progra-2
-Grupo progra 2
+Grupo Abstractos
 # Presentación integrantes
 <img width="82" height="106" alt="image" src="https://github.com/user-attachments/assets/6505caad-b5b9-49ac-96f9-cae3421ba9de" />
 
