@@ -27,13 +27,13 @@ Gustos: Me gusta mirar peliculas los fines de semana, entrenar, Jugar con mis ma
 
 Expectativas: Aprender nuevos lenguajes de programacion.
 
+<img width="82" height="106" alt="image" src="https://github.com/user-attachments/assets/9d06a75c-11b8-489a-adb6-c8249720d859" />
+
 Mia colombo
 
 Objetivos: Reforzar mis conocimientos y aprender a aplicarlos en proyectos reales
 
 Expectativas: Incorporar nuevas herramientas y ganar experiencia.
-
-<img width="82" height="106" alt="image" src="https://github.com/user-attachments/assets/9d06a75c-11b8-489a-adb6-c8249720d859" />
 
 Andrés Ortuño
 
