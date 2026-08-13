@@ -35,7 +35,7 @@ Objetivos: Reforzar mis conocimientos y aprender a aplicarlos en proyectos reale
 
 Expectativas: Incorporar nuevas herramientas y ganar experiencia.
 
-<img width="82" height="106" alt="image" src="ftp2.jpg" >
+<img width="335" height="340" alt="imagen" src="https://github.com/user-attachments/assets/192b19f5-c12e-40a4-9019-e584c543e105" />
 
 Andrés Ortuño
 
