@@ -42,7 +42,7 @@ Objetivos: Aprender y dominar el lenguaje de programación para usarlo en mi vid
 Gustos: me gusta jugar videojuegos como también aprendo a dibujar
 
 Expectativas: es que este proyecto me ayude a mejorar como a tener nuevas experiencias
-<img  src="ftp2.jpg" width="80">
+<img width="82" height="106" alt="image" src="ftp2.jpg" >
 
 
 
