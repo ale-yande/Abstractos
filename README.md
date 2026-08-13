@@ -27,3 +27,11 @@ Gustos: Me gusta mirar peliculas los fines de semana, entrenar, Jugar con mis ma
 
 Expectativas: Aprender nuevos lenguajes de programacion.
 
+Mia colombo
+
+Objetivos: Reforzar mis conocimientos y aprender a aplicarlos en proyectos reales
+
+Expectativas: Incorporar nuevas herramientas y ganar experiencia.
+
+<img width="82" height="106" src="<img width="3120" height="4160" alt="image" src="https://github.com/user-attachments/assets/e7f533d3-ad9c-4c8f-952c-a16098729aa0" />
+
