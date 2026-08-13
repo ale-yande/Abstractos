@@ -17,4 +17,11 @@ Objetivo: aprender nuevos conocimientos que considero importantes para desarroll
 
 Expectativa: Que logre adquirir los conceptos de la materia.
 
+Alejandro Yandé
+
+Objetivos: Aprender todos los conceptos importantes de la materia para poder implementarlos en mi carrera.
+
+Gustos: Me gusta mirar peliculas los fines de semana, entrenar, Jugar con mis mascotas y Jugar videojuegos.
+
+Expectativas: Aprender nuevos lenguajes de programacion.
 
