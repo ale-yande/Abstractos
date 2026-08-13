@@ -11,7 +11,7 @@ Expectativa: que la cursada sea fluida y entretenida.
 
 <img width="82" height="106" alt="WhatsApp Image 2026-08-13 at 14 50 13" src="https://github.com/user-attachments/assets/459ace8b-32f3-479e-b38f-49ff4e05dcbf" />
 
-Massimo Trovato - 20 años - Villa Luro, CABA
+Massimo Trovato - 20 años
 
 Objetivo: aprender nuevos conocimientos que considero importantes para desarrollarme en el ámbito IT.
 
