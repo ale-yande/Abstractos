@@ -36,12 +36,13 @@ Expectativas: Incorporar nuevas herramientas y ganar experiencia.
 <img width="82" height="106" alt="image" src="https://github.com/user-attachments/assets/9d06a75c-11b8-489a-adb6-c8249720d859" />
 
 Andrés Ortuño
+
 Objetivos: Aprender y dominar el lenguaje de programación para usarlo en mi vida diaria 
 
 Gustos: me gusta jugar videojuegos como también aprendo a dibujar
 
 Expectativas: es que este proyecto me ayude a mejorar como a tener nuevas experiencias
-<img  alt="image" src="ftp2.jpg"/>
+<img  src="ftp2.jpg"/>
 
 
 
