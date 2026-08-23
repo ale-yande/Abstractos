@@ -45,6 +45,14 @@ Gustos: me gusta jugar videojuegos como también aprendo a dibujar
 
 Expectativas: es que este proyecto me ayude a mejorar como a tener nuevas experiencias
 
+<img width="106" height="106" alt="IMG_1897" src="https://github.com/user-attachments/assets/e6941e73-23db-424f-8fde-117770984e92" />
 
+Sofia Villar
+
+Objetivo: Adquirir buenas prácticas de desarrollo en Java y aplicarlas en la resolución de problemas.
+
+Gustos: Cuando tengo tiempo libre me gusta ver series o películas, entrenar, hacer trekking, cocinar, jugar videojuegos con mis amigas.
+
+Expectativas: Incorporar nuevas herramientas técnicas y ganar experiencia.
 
 
