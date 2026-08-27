@@ -66,3 +66,5 @@ Clase 2 - 13/8: Creación de repositorio grupal. Realización de ejercicio integ
 Finalización de ejercicio Integrador, archivo subido a la bitacora como "EjercicioIntegradorClase2".
 
 Clase 3 - 20/08: Actividad 1: "El Contrato del Millón" (60 min)
+
+Clase 4 - 27/08: Actividad: TDA Pila, TDA Cola y TDA Cola con Prioridad. 10 ejercicios. 
