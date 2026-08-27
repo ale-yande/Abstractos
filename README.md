@@ -56,3 +56,5 @@ Gustos: Cuando tengo tiempo libre me gusta ver series o películas, entrenar, ha
 Expectativas: Incorporar nuevas herramientas técnicas y ganar experiencia.
 
 
+# Bitácora
+
