@@ -68,3 +68,4 @@ Finalización de ejercicio Integrador, archivo subido a la bitacora como "Ejerci
 Clase 3 - 20/08: Actividad 1: "El Contrato del Millón" (60 min)
 
 Clase 4 - 27/08: Actividad: TDA Pila, TDA Cola y TDA Cola con Prioridad. 10 ejercicios. 
+Archivo de bloc de notas subido como "ResoluciónEjerciciosClase4"
