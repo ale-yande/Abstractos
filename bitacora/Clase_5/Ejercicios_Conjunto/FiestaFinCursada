@@ -1,0 +1,59 @@
+Invitados a la Fiesta de Fin de Cursada:
+Consigna: ¿Qué pasa si intentas Agregar a alguien que ya está en la lista? ¿Cambia el tamaño del conjunto?
+
+Implementación en Main, más una función que devuelve el tamaño del conjunto usando Conjunto auxiliar:
+
+public static void main(String[] args) {
+        ConjuntoTDA c = new ConjuntoEstatico();
+        c.InicializarConjunto();
+
+        System.out.println("Se agrega a la lista persona 1");
+        c.Agregar(1);
+        System.out.println("Se agrega a la lista persona 2");
+        c.Agregar(2);
+        System.out.println("Se agrega a la lista persona 3");
+        c.Agregar(3);
+        System.out.println();
+        int contador1 = total(c);
+        System.out.println("Cantidad de personas en la lista: "+contador1);
+        System.out.println("Se intenta agregar a la lista persona 1 nuevamente");
+        c.Agregar(1);
+        System.out.println("No se agrega porque ya esta en la lista.");
+        System.out.println();
+        int contador2 = total(c);
+        System.out.println("Cantidad de personas en la lista: "+contador2);
+        
+    }
+
+    public static int total(ConjuntoTDA c){
+        int contador = 0;
+        ConjuntoTDA aux = new ConjuntoEstatico();
+        aux.InicializarConjunto();
+
+        while (!c.ConjuntoVacio()){
+            int x = c.Elegir();
+            c.Sacar(x);
+            aux.Agregar(x);
+            contador++;
+        }
+
+        while (!aux.ConjuntoVacio()){
+            int x = aux.Elegir();
+            c.Agregar(x);
+            aux.Sacar(x);
+        }
+
+        return contador;
+    }
+
+Salida por pantalla:
+
+Se agrega a la lista persona 1
+Se agrega a la lista persona 2
+Se agrega a la lista persona 3
+
+Cantidad de personas en la lista: 3
+Se intenta agregar a la lista persona 1 nuevamente
+No se agrega porque ya esta en la lista.
+
+Cantidad de personas en la lista: 3
