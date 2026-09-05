@@ -1,0 +1,21 @@
+Gestión de Legajos: En la base de datos de Ingeniería en Informática, el legajo es único.
+Consigna: Si un alumno se anota a dos carreras, ¿cómo se asegura el sistema de no duplicar su ID?
+
+ConjuntoTDA legajos = new ConjuntoEstatico();
+legajos.InicializarConjunto();
+
+legajos.Agregar(1214312)
+legajos.Agregar(4218483)
+legajos.Agregar(4234123)
+legajos.Agregar(1125682)
+
+// Si el alumno de legajo 1214312 que ya esta anotado en una carrera, se anota a otra. El legajo no debería duplicarse.
+// Como el legajo ya pertenece al conjunto, este no se agregaría. Dentro del método Agregar en la implementación
+// se verifica esto, a traves del método Pertenece().
+// para ver si pertenece antes de agregarlo, seria algo asi:
+
+if (legajos.Pertenece(1214312)) 
+    {System.out.println("El alumno ya esta registrado, no se duplica el legajo");} 
+else 
+    {legajos.Agregar(1214312);
+     System.out.println("Alumno registrado.");}
