@@ -1,0 +1,35 @@
+Padrón Electoral: Registro de alumnos para votar en el Centro de Estudiantes.
+Operación Clave: ¿Cómo evitás que un "vivo" vote dos veces usando Pertenece?
+Implementación en Main:
+
+ConjuntoTDA c = new ConjuntoEstatico();
+c.InicializarConjunto();
+        
+System.out.println("¿Padron vacío?: " + c.ConjuntoVacio());
+System.out.println();
+System.out.println("¿Voto el alumno de DNI 4802348?: " + c.Pertenece(4802348));
+c.Agregar(4802348);
+System.out.println("Se agrega al patrón");
+System.out.println("¿Voto el alumno de DNI 5012122?: " + c.Pertenece(5012122));
+c.Agregar(5012122);
+System.out.println("Se agrega al patrón");
+System.out.println("¿Voto el alumno de DNI 4802348?: " + c.Pertenece(4802348));
+c.Agregar(4802348);
+System.out.println("Se intenta agregar al padron, pero ya pertenece");
+// Intentamos agregar 4802348, no se agrega porque
+// ya pertenece. Este metodo ya se llama dentro de Agregar().
+System.out.println("¿Voto el alumno de DNI 39012032?: " + c.Pertenece(39012032));
+c.Agregar(39012032);
+System.out.println("Se agrega al padron");
+
+Salida por pantalla:
+¿Padron vacío?: true
+
+¿Voto el alumno de DNI 4802348?: false
+Se agrega al patrón
+¿Voto el alumno de DNI 5012122?: false
+Se agrega al patrón
+¿Voto el alumno de DNI 4802348?: true
+Se intenta agregar al padron, pero ya pertenece
+¿Voto el alumno de DNI 39012032?: false
+Se agrega al patrón
