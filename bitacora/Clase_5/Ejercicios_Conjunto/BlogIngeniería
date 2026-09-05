@@ -1,0 +1,14 @@
+Tags de un Blog de Ingeniería: Un post sobre Java tiene etiquetas #Programacion, #Java, #OOP.
+Consigna: ¿Por qué usamos un Conjunto y no una Pila para los tags?
+Usamos un Conjunto porque los tags no hace falta que mantengan un orden, sino que no se dupliquen. 
+El Conjunto permite verificar si una etiqueta ya existe y evita duplicados. En cambio una Pila usa un orden y 
+un algoritmo de entrada y salida donde el último elemento es el primero en salir, orden que no es necesario en esta consigna.
+
+ConjuntoTDA tags = new ConjuntoEstatico();
+tags.InicializarConjunto();
+tags.Agregar("Programacion");
+tags.Agregar("Java");
+tags.Agregar("OOP");
+
+System.out.println("¿El post tiene el tag #Java?" +tags.Pertenece("Java")); // devuelve true
+System.out.println("¿El post tiene el tag #Python?" +tags.Pertenece("Python")); // devuelve false
