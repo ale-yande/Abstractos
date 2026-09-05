@@ -1,0 +1,4 @@
+Operación Elegir vs Sacar:
+Pregunta Técnica: Si llamás a Elegir dos veces seguidas sin llamar a Sacar, ¿te devuelve el mismo elemento? 
+(Pista: Es arbitrario, no necesariamente aleatorio).
+
