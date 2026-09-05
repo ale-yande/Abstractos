@@ -1,2 +1,38 @@
-DNS (Domain Name System): google.com / 42.250.190.46.
+DNS (Domain Name System): google.com / 42.250.190.46
 Modelado: Clave: [ ] / Valor: [ ]
+
+DiccionarioSimpleTDA DNS = new DiccionarioSimpleEstatico();
+DNS.InicializarDiccionario();
+
+DNS.Agregar("google.com", "42.250.190.46");
+DNS.Agregar("youtube.com", "142.250.190.14");
+DNS.Agregar("wikipedia.org", "198.35.26.96");
+
+En Main:
+String[] claves1 = DNS.Claves();
+String[] valores1 = DNS.Valores();
+System.out.println("Claves -> valor");
+for (int i = 0; i < claves1.length; i++) {System.out.println(claves1[i]+" -> "+valores1[i]);}
+
+Salida en pantalla de la llamada a estos métodos:
+Juan -> 112123
+Pedro -> 119388
+Felipe -> 3992391
+
+Métodos que se usan para mostrar cada clave con su valor:
+
+public String[] Claves() { // genera un array auxiliar del mismo largo que el original. recorre de 0 a cantidad y guarda en el auxiliar la clave
+        String[] aux = new String[cantidad];
+        for (int i = 0; i < cantidad; i++) {
+            aux[i] = claves[i];
+        }
+        return aux;
+    }
+
+public String[] Valores(){ // hace lo mismo pero con los valores de cada clave, en este ejercicio son String también.
+        String[] aux = new String[cantidad];
+        for (int i = 0; i<cantidad ; i++) {
+            aux[i]=valores[i];
+        }
+        return aux;
+    }
