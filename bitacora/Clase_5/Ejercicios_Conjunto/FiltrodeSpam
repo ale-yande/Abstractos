@@ -1,2 +1,23 @@
 Filtro de Spam (Blacklist): Un conjunto de palabras como "Crypto", "Ganá", "Premio".
 Consigna: ¿Cómo verificas si un mail entrante tiene una palabra prohibida?
+
+Palabra Numero 1 = "Crypto"
+Palabra Numero 2 = "Gana"
+Palabra Numero 3 = "Premio"
+
+Implementación en Main:
+
+        ConjuntoTDA mail = new ConjuntoEstatico();
+        mail.InicializarConjunto();
+
+        mail.Agregar("Hola");
+        mail.Agregar("Ganaste");
+        mail.Agregar("un");
+        mail.Agregar("Premio");
+
+        if (mail.Pertenece("Crypto") || mail.Pertenece("Gana") || mail.Pertenece("Premio")) {
+            System.out.println("El mail es spam");
+        }
+        else {
+            System.out.println("El mail no es spam");
+        }
