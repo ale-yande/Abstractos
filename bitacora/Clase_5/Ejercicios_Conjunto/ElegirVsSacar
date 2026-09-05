@@ -2,3 +2,9 @@ Operación Elegir vs Sacar:
 Pregunta Técnica: Si llamás a Elegir dos veces seguidas sin llamar a Sacar, ¿te devuelve el mismo elemento? 
 (Pista: Es arbitrario, no necesariamente aleatorio).
 
+Respuesta: 
+En la implementación. Elegir() devuelve al primer elemento del conjunto. 
+Se puede ver así:
+public int Elegir() { return datos[0]; } // devuelve siempre el elemento en la posicion de indice 0. 
+
+Entonces, si llamas a Elegir dos veces seguidas sin llamar a Sacar, en este caso te devuelve el mismo elemento.
