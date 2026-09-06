@@ -60,6 +60,8 @@ Expectativas: Incorporar nuevas herramientas técnicas y ganar experiencia.
 
 ### Bitácora de ejercicios de Programación II.
 
+Clase 1 - 6/08: Introducción a la materia.
+
 Clase 2 - 13/8: Creación de repositorio grupal. Realización de ejercicio integrador en clase hasta ejercicio 2b.
 
 14/8: Finalización de Ejercicios Previos (1, 2 y 3). Archivo subido a la bitacora como "EjerciciosPreviosClase2". 
