@@ -69,3 +69,6 @@ Clase 3 - 20/08: Actividad 1: "El Contrato del Millón" (60 min)
 
 Clase 4 - 27/08: Actividad: TDA Pila, TDA Cola y TDA Cola con Prioridad. 10 ejercicios. 
 Archivo de bloc de notas subido a la bitácora como "ResoluciónEjerciciosClase4"
+
+Clase 5 - 3/09: Ejercicios Conjunto, Diccionario simple, Diccionario compuesto. 
+Cada ejercicio esta subido a el directorio "Clase_5" en su respectiva carpeta de "Ejercicios_Conjunto" o "Ejercicios_Diccionarios"
