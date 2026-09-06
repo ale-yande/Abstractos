@@ -1,6 +1,6 @@
-# Progra-2
+# Programación - 2
 Grupo Abstractos
-# Presentación integrantes
+## Presentación integrantes
 <img width="82" height="106" alt="image" src="https://github.com/user-attachments/assets/6505caad-b5b9-49ac-96f9-cae3421ba9de" />
 
 Dante Borgoglio
@@ -58,7 +58,7 @@ Expectativas: Incorporar nuevas herramientas técnicas y ganar experiencia.
 
 # Bitácora
 
-Bitácora de ejercicios de Programación II.
+### Bitácora de ejercicios de Programación II.
 
 Clase 2 - 13/8: Creación de repositorio grupal. Realización de ejercicio integrador en clase hasta ejercicio 2b.
 
