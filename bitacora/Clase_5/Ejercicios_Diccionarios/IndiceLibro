@@ -18,9 +18,11 @@ indiceLibro.Agregar("Recursión", 88);
 
 // En Main:
 
-System.out.println("Páginas donde se encuentra la palabra Recursión:");
+String palabra = "Recursión";
 
-int[] paginas = indiceLibro.Valores("Recursión");
+int[] paginas = indiceLibro.Valores(palabra);
+
+System.out.println("Páginas donde se encuentra la palabra " + palabra + ":");
 
 for (int i = 0; i < paginas.length; i++) {
     System.out.println(paginas[i]);
