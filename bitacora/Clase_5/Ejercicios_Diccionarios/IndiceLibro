@@ -1,2 +1,35 @@
-Índice de un Libro de Algoritmos: La palabra "Recursión" aparece en las páginas 12, 45 y 88.
-Modelado: Clave: [ ] / Valor: [ ]
+// ÍNDICE DE UN LIBRO DE ALGORITMOS
+// Modelado:
+// Clave: Palabra
+// Valor: Conjunto de páginas
+// TDA utilizado: Diccionario Múltiple
+
+
+// Utilización del TDA
+
+DiccionarioMultipleTDA indiceLibro = new DiccionarioMultipleEstatico();
+indiceLibro.InicializarDiccionario();
+
+// Se asocia cada palabra con las páginas en las que se encuentra.
+indiceLibro.Agregar("Recursión", 12);
+indiceLibro.Agregar("Recursión", 45);
+indiceLibro.Agregar("Recursión", 88);
+
+
+// En Main:
+
+System.out.println("Páginas donde se encuentra la palabra Recursión:");
+
+int[] paginas = indiceLibro.Valores("Recursión");
+
+for (int i = 0; i < paginas.length; i++) {
+    System.out.println(paginas[i]);
+}
+
+
+// Salida en pantalla:
+
+// Páginas donde se encuentra la palabra Recursión:
+// 12
+// 45
+// 88
