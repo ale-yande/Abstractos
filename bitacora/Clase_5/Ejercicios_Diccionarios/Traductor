@@ -1,3 +1,30 @@
-Traductor de Idiomas: La palabra "Bank" puede ser "Banco" o "Orilla".
-TDA Sugerido: Justifica si usarías Simple o Múltiple.
+// Traductor de Idiomas
+// Modelado: Clave: [Palabra en inglés] / Valor: [Conjunto de significados en español]
+// TDA utilizado: Diccionario Múltiple
+
+// Utilización del TDA
+
+DiccionarioMultipleTDA significadoPalabra = new DiccionarioMultipleEstatico();
+significadoPalabra.InicializarDiccionario();
+
+significadoPalabra.Agregar("Bank", "Banco");
+significadoPalabra.Agregar("Bank", "Orilla");
+
+// En Main
+
+String palabra = "Bank";
+String[] significados = significadoPalabra.Valores(palabra);
+
+System.out.println("Los significados de " + palabra + " son:");
+
+for (int i = 0; i < significados.length; i++) {
+    System.out.println(significados[i]);
+}
+
+// Salida en pantalla:
+//
+// Los significados de Bank son:
+// Banco
+// Orilla
+
 
