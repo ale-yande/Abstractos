@@ -1,2 +1,32 @@
-Diccionario de Sinónimos: Múltiple.
-Modelado: Clave: [Palabra] / Valor: [Conjunto de Sinónimos]
+// Diccionario de Sinónimos: Múltiple.
+// Modelado: Clave: [Palabra] / Valor: [Conjunto de Sinónimos]
+// TDA utilizado: Diccionario Múltiple
+
+// Utilización del TDA
+
+DiccionarioMultipleTDA sinonimos = new DiccionarioMultipleEstatico();
+sinonimos.InicializarDiccionario();
+
+// Se asocian los sinónimos con la palabra correspondiente.
+sinonimos.Agregar("Feliz", "Alegre");
+sinonimos.Agregar("Feliz", "Contento");
+sinonimos.Agregar("Feliz", "Satisfecho");
+
+// En Main
+
+String palabra = "Feliz";
+
+String[] sinonimosPalabra = sinonimos.Valores(palabra);
+
+System.out.println("Los sinónimos de " + palabra + " son los siguientes:");
+
+for (int i = 0; i < sinonimosPalabra.length; i++) {
+    System.out.println(sinonimosPalabra[i]);
+}
+
+// Salida en pantalla:
+//
+// Los sinónimos de Feliz son los siguientes:
+// Alegre
+// Contento
+// Satisfecho
