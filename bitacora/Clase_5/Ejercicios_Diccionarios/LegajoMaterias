@@ -1,2 +1,32 @@
-Inscripción por Alumno: Un legajo está anotado a varias materias
-Modelado: Clave: [Legajo] / Valor: [Conjunto de Materias]
+// Inscripción por Alumno: Un legajo está anotado a varias materias
+// Modelado: Clave: [Legajo] / Valor: [Conjunto de Materias]
+// TDA utilizado: Diccionario Múltiple
+
+// Utilización del TDA
+DiccionarioMultipleTDA materiasAlumno = new DiccionarioMultipleEstatico();
+materiasAlumno.InicializarDiccionario();
+
+// Se asocia cada alumno con las materias en las que se encuentra inscripto.
+materiasAlumno.Agregar(1222186, "Ingenieria de Datos I");
+materiasAlumno.Agregar(1222186, "Algoritmos y Estructuras de Datos II");
+materiasAlumno.Agregar(1222186, "Paradigma Orientado a Objetos");
+
+// En Main
+int numeroLegajo = 1222186;
+
+String[] materias = materiasAlumno.Valores(numeroLegajo);
+
+System.out.println("El alumno con el legajo " + numeroLegajo
+        + " se encuentra inscripto a las siguientes materias:");
+
+for (int i = 0; i < materias.length; i++) {
+    System.out.println(materias[i]);
+}
+
+// Salida en pantalla:
+// El alumno con el legajo 1222186 se encuentra inscripto a las siguientes materias:
+// Ingenieria de Datos I
+// Algoritmos y Estructuras de Datos II
+// Paradigma Orientado a Objetos
+
+
